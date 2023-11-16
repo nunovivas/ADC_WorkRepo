@@ -9,7 +9,7 @@ nome_ficheiro_lista_de_clientes = "lista_de_clientes.pk"
 # todos os outros ficheiros clientes-*.py, e inclusive estes comentários
 
 # ...
-
+# aLTERACAO
 def cria_novo_cliente():
     """Pedir os dados de um novo cliente
 
