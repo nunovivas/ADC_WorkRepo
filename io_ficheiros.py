@@ -36,3 +36,13 @@ def guarda_as_listas_em_ficheiros(lista_de_veiculos, lista_de_clientes, lista_de
         print("Gravação cancelada...")"""
        
        """a informação está como documentação pois não tenho acesso as demais funcões e ficheiros relacionados que o programa quer trabalhar"""
+
+def guarda_em_ficheiro(nome_do_ficheiro, dados):
+    """Guarda os dados recebidos num ficheiro
+
+    :param nome_do_ficheiro: nome do ficheiro onde vai guardar os dados
+    :param dados: dados a serem guardados
+    """
+
+    with open(nome_do_ficheiro, "wb") as f:
+        pickle.dump(dados, f)
