@@ -5,6 +5,7 @@ from io_ficheiros import (carrega_as_listas_dos_ficheiros,
 from io_terminal import pause"""
 from veiculos import cria_novo_veiculo, imprime_lista_de_veiculos
 
+
 def menu():
     """Menu principal da aplicação"""
 
