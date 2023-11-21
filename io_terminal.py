@@ -23,11 +23,11 @@ def imprime_lista(cabecalho, lista):
     if (len(lista) == 0):
         print("Lista vazia")
     else:
-        # cabecalho da tabela
+        
         lista_a_imprimir = [["id"] + list(lista[0].keys())]
-        # dados
+        
         lista_a_imprimir.extend([[id] + list(d.values()) for id, d in enumerate(lista)])
 
-        print(tabulate(lista_a_imprimir, headers="firstrow", tablefmt='psql'))
+        print("tabulate"(lista_a_imprimir, headers="firstrow", tablefmt='psql'))
 
 
