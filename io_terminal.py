@@ -36,12 +36,12 @@ def pause():
     input("Pressione ENTER para continuar...")
 
 def pergunta_id(questao, lista, mostra_lista=False):
-    """TODO: documentação
+    """: Esta função tem como objetivo fazer perguntas no terminal
 
-    :param questao:
-    :param lista:
-    :param mostra_lista:
-    :return:
+    :param questao: é feita uma pergunta sobre a questão 
+    :param lista: é feita uma pergunta sobre a lista que se deseja formar
+    :param mostra_lista: a lista adquirida é formada
+    :return: é retornado no terminal todas as informações que esta função trabalha, ou seja, lista, questão, cabeçalho etc
     """
 
     if mostra_lista:
