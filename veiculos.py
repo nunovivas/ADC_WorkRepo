@@ -34,7 +34,7 @@ def carregar_lista_de_veiculos():
         return []
 
 lista_de_veiculos_exemplo = [
-    {"marca": "Toyota", "matricula": "ABC123", "combustivel": "Gasolina", "categoria": "Carro compacto"},  
+    {"marca": "Toyota", "matricula": "YSX211", "combustivel": "Gasolina", "categoria": "Carro compacto"},  
     {"marca": "Ford", "matricula": "DEF456", "combustivel": "Diesel", "categoria": "Carro esportivo"},  
     # Adicione mais veículos conforme necessário o cliente presisar
 ]
