@@ -1,1 +1,12 @@
-sphinx-apidoc -F -f -A "Nuno Vivas" -V 0 -R 0.1 -H "TP2 - Ambientes de desenvolvimento colaborativo" -e -P -a --ext-autodoc --ext-viewcode --ext-todo -o . ./../src/
+sphinx-apidoc -F -f -A "Nuno Carmo Vivas" -V 0 -R 0.1 -H "Ambientes de desenvolvimento colaborativo - TP2" -e -P -a --ext-autodoc --ext-viewcode --ext-todo -o . ./../TP2/src/
+
+
+# -- Project information ----------------------------------------
+project = ’TP2 - Ambientes de desenvolvimento colaborativo’
+copyright = ’2023, Nuno Carmo Vivas, Andrés, Felipe e Sophia Soares’ author = ’Team’
+# -- General configuration --------------------------------------
+language = ’pt’
+
+import os
+import sys
+sys.path.insert(0, os.path.abspath(’../src’))
