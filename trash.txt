@@ -1,0 +1,1 @@
+sphinx-apidoc -F -f -A "Nuno Vivas" -V 0 -R 0.1 -H "TP2 - Ambientes de desenvolvimento colaborativo" -e -P -a --ext-autodoc --ext-viewcode --ext-todo -o . ./../src/

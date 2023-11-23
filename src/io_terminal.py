@@ -1,4 +1,7 @@
 
+from more_itertools import tabulate
+
+
 def imprime_lista(cabecalho, lista):
     """Imprime a :attr:`lista` na forma de uma tabela com um cabeçalho
 
