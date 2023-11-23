@@ -35,4 +35,23 @@ def pause():
     """Faz uma pausa no programa e espera que o utilizador pressione ENTER"""
 
     input("Pressione ENTER para continuar...")
+def pergunta_id(questao, lista, mostra_lista=False):
+    """Função que pergunta o id de uma lista
+
+    :param questao: a questão a mostrar 
+    :param lista: a lista 
+    :param mostra_lista: define se mostra ou não a lista
+    :return: retorna id se ele existir
+    """
+
+    if mostra_lista:
+        imprime_lista(cabecalho="", lista=lista)
+
+    while True:
+        id = int(input(questao))
+        if 0 <= id < len(lista):
+            return id
+        else:
+            print(f"id inexistente. Tente de novo. Valores admitidos {0} - {len(lista)}")
+
 
