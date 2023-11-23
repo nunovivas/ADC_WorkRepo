@@ -29,13 +29,13 @@ def guarda_as_listas_em_ficheiros(lista_de_veiculos, lista_de_clientes, lista_de
 
     op = input("Os dados nos ficheiros serão sobrepostos. Continuar (s/N)?")
     if op in ['s', 'S']:
-       """ guarda_em_ficheiro(nome_ficheiro_lista_de_veiculos, lista_de_veiculos)
-        guarda_em_ficheiro(nome_ficheiro_lista_de_clientes, lista_de_clientes)
-        guarda_em_io_ficheiros(nome_ficheiro_lista_de_faturas, lista_de_faturas)
+        guarda_em_ficheiro(nome_ficheiro_lista_de_veiculos, lista_de_veiculos)
+        guarda_em_ficheiro('nome_ficheiro_lista_de_clientes', lista_de_clientes)
+        'guarda_em_io_ficheiros'('nome_ficheiro_lista_de_faturas', lista_de_faturas)
     else:
-        print("Gravação cancelada...")"""
+        print("Gravação cancelada...")
        
-       """a informação está como documentação pois não tenho acesso as demais funcões e ficheiros relacionados que o programa quer trabalhar"""
+    """a informação está como documentação pois não tenho acesso as demais funcões e ficheiros relacionados que o programa quer trabalhar"""
 
 def guarda_em_ficheiro(nome_do_ficheiro, dados):
     """Guarda os dados recebidos num ficheiro
