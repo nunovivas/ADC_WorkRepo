@@ -20,11 +20,11 @@ def carrega_as_listas_dos_ficheiros():
     return  lista_de_veiculos 
 
 def guarda_as_listas_em_ficheiros(lista_de_veiculos, lista_de_clientes, lista_de_faturas):
-    """TODO: documentação
+    """ documentação
 
-    :param lista_de_clientes:
-    :param lista_de_veiculos:
-    :param lista_de_faturas:
+    :param lista_de_clientes: vai ser guardada a lista com as informações dos clientes
+    :param lista_de_veiculos: guardará a lista com as informações sobre os veiculos que a loja apresenta
+    :param lista_de_faturas: armazena a lista de faturas/pagamentos efetuados pelos clientes
     """
 
     op = input("Os dados nos ficheiros serão sobrepostos. Continuar (s/N)?")
